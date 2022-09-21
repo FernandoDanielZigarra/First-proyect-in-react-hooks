@@ -5,7 +5,7 @@ import { useSearchParams } from "react-router-dom";
 
 
 export function LandingPage() {
-    const query = useSearchParams();
+    const [query] = useSearchParams();
     const search = query.get("search");
 
     const debouncedSearch = useDebounce(search, 500);
