@@ -41,5 +41,5 @@ export function MoviesGrid({ search }) {
                 ))}
             </ul>
         </InfiniteScroll>
-    );
+    )
 }
